@@ -35,7 +35,7 @@ function diagonalDifference(arr) {
         size--;
         leftToRight += arr[i][i]
         rightToLeft += arr[i][size]
-    }1
+    }
     const difference = leftToRight - rightToLeft
     return Math.abs(difference);
 }
