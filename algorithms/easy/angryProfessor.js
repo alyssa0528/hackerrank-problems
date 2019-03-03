@@ -34,7 +34,6 @@ function angryProfessor(k, a) {
 
     return onTime.length >= k ? "NO" : "YES";
 }
-}
 
 function main() {
     const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
